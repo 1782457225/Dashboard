@@ -1,0 +1,21 @@
+<div class="hbox hbox-auto-xs hbox-auto-sm" ng-init="
+    app.settings.asideFolded = false; 
+    app.settings.asideDock = false;
+  ">
+  <div class="col">
+  <div class="wrapper-md bg-light b-b">
+    <div class="row">
+        <div class="col-sm-6 col-xs-12">
+          <h1 class="m-n font-thin h3 text-black">User Engagement <span style="font-size: 12px;">Shared by&nbsp;&nbsp;<i style="color: green; font-style: normal;">Ryotairo.Ohara</i></span></h1>
+          <small class="text-muted">This is a statistic of user engagement and activity.</small>
+        </div>
+        <div class="col-sm-6 text-right hidden-xs" ng-include="'tpl/blocks/sub_nav.html'"></div>
+      </div>
+  </div>
+  <!-- / main header -->
+    <div class="wrapper-md" ng-controller="FlotChartDemoCtrl">
+      <img src="img/user_engagement.jpg" style="width: 100%; max-width: 100%;">
+    </div>
+  </div>
+  <!-- / main -->
+</div>
