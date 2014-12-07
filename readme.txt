@@ -25,4 +25,4 @@ go to the app root
 >grunt bower-install
 >grunt build:dev
 >grunt build:dist
->npm start
+>npm start  
